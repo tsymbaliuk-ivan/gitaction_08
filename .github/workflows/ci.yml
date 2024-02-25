@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java version: '17'
-          distsibution: 'zulu'
+          distribution: 'zulu'
       - name: Show Java version
         run: 'java-version'
 
